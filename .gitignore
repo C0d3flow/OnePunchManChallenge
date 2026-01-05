@@ -1,0 +1,56 @@
+# -----------------------------
+# Node / SvelteKit
+# -----------------------------
+node_modules/
+.pnpm-store/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+.svelte-kit/
+build/
+
+# Vite / cache
+.vite/
+.vite-inspect/
+
+# Env files (secrets)
+.env
+.env.*
+!.env.example
+
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# -----------------------------
+# PocketBase (IMPORTANT)
+# -----------------------------
+# Do NOT commit database files
+pb_data/
+pocketbase.db
+
+# If you keep PocketBase binary in repo (optional)
+# Uncomment if PB binary is inside this repo
+# pocketbase
+
+# -----------------------------
+# Logs
+# -----------------------------
+logs/
+*.log
+
+# -----------------------------
+# Temporary / misc
+# -----------------------------
+tmp/
+temp/
+.cache/
+
